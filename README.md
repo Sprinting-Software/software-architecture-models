@@ -14,6 +14,7 @@ Let us define a model for software architecture diagramming, in short 'a model',
 - concepts: a set of unambiguously defined concepts within software architecture 
 - notation: a standardized notation for how to depict these concepts in diagrams
 
+The concepts should be be explained in such a way that the relationship between them are clearly understood. The notation should explain how each concept and each relationship between them can be depicted. 
 
 ## Concepts
 
