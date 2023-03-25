@@ -7,6 +7,12 @@ An open-sourced lean model for software architecture diagrams.
 This open-source project sets out to create a standard model for software architecture diagrams. Creating agreement and consensus in the industry about diagramming standards for software architecture is challenging for many reasons. Using the approach, techniques and platforms from the open-source community seems obvious. 
 
 This intiative is called the C5 Model for Software Architecture Diagrams inspired by the C4-model: https://c4model.com/
+## what makes up a model for software architecture diagramming 
+
+a model for software architecture diagramming constitutes of the following parts:
+
+- concepts: a set of accurately defined concepts and the relationships between them
+- notation: standardized notation for how to depict these concepts, their attributes and relationships 
 
 ## Core concepts
 
