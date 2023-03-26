@@ -10,7 +10,7 @@ In this section, we will Capitalize the Concepts to be defined, we will use **bo
 
 - **Elements**: An **Element** is an _inner part_ of a Component or of another Element.
 
-- **Deployment Node**: A **Deployment Node** is a _runtime container_ for the Component or for another Deployment Node. When all Components within a System are deployed in Deployment Nodes, the use cases of the System can be realized.
+- **Deployment Node**: A **Deployment Node** is a _runtime container_ for a Component or for another Deployment Node. When all Components within a System are deployed in Deployment Nodes, the use cases of the System can be realized.
 
 ## Relationships between the concepts
 

@@ -1,6 +1,6 @@
 # The C4 model
 
-This page is in full attributed to the original author of the C4-model, Simon Brown. It is a brief recap of the C4-model in a format that complies with the approach in this material. All formulations are copies and remixes of the original text from [the C4 Model](https://c4model.com).
+This page is in full attributed to the original author of the C4-model, Simon Brown. It is a brief recap of the C4-model in a format that complies with the approach in this material. All formulations are copied and remixed from the original text from [the C4 Model](https://c4model.com).
 
 ## Core concepts
 
@@ -8,10 +8,10 @@ A software system is made up of one or more containers (applications and data st
 
 More formally, we can define it as this:
 
-- ** Software System **: A **Software System** is the highest level of abstraction and describes something that delivers value to its users, whether they are human or not. This includes the software system you are modelling, and the other software systems upon which your software system depends (or vice versa). In many cases, a software system is "owned by" a single software development team.
-- ** Container**: a **Container** represents an application or a data store. A container is something that needs to be running in order for the overall software system to work.
-- ** Component**: A **component** is a grouping of related functionality encapsulated behind a well-defined interface. All components inside a container typically execute in the same process space. Hence, components are NOT separately deployable units.
-- ** Person**: A **Person** represents one of the human users of your software system (e.g. actors, roles, personas, etc).
+- **Software System**: A **Software System** is the highest level of abstraction and describes something that delivers value to its users, whether they are human or not. This includes the software system you are modelling, and the other software systems upon which your software system depends (or vice versa). In many cases, a software system is "owned by" a single software development team.
+- **Container**: a **Container** represents an application or a data store. A container is something that needs to be running in order for the overall software system to work.
+- **Component**: A **component** is a grouping of related functionality encapsulated behind a well-defined interface. All components inside a container typically execute in the same process space. Hence, components are NOT separately deployable units.
+- **Person**: A **Person** represents one of the human users of your software system (e.g. actors, roles, personas, etc).
 
 ## Relationships between the concepts
 
