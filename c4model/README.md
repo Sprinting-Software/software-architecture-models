@@ -45,15 +45,21 @@ It is worth noticing the following:
 
 - The concepts of Software System, Container, Component and Code Element makes up a set of _hierarchical abstractions_. Alternatively you can say that Software System, Container, Component and Code Element makes up a tree-structure.
 
+Another way to depict the above is shown here:
+
+![](images/c4_concepts.png)
+
 ## Notation
 
 The C4-model is notation-agnostic in theory. It is clearly stated on [the C4 Model](https://c4model.com) that the focus of the model is on the concepts and that notation can be selected freely.
 
-In reality, the notation of C4 in many organizations follows the conventions established on [the C4 Model](https://c4model.com) which can be summarized as follows:
+In reality, the notation of C4 in many organizations follows the conventions established on [the C4 Model website](https://c4model.com) which is summarized here:
 
-// Put in the legend diagram
+![](images/c4_notation.png)
 
-An alternative way to illustrate the notation is the following diagram:
+The following provides some realistic examples of how the notation can be applied in different kinds of diagrams. It should be clear how one can zoom in and out of various details.
+
+![](images/c4_diagrams.png)
 
 ## Elaboration of core concepts
 

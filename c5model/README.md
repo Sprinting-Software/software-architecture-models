@@ -38,6 +38,10 @@ Element --|
 
 ```
 
+Another way to depict the above is shown here:
+
+![](images/c5_concepts.png)
+
 It is worth noticing the following:
 
 - The concepts of System, Component and Element makes up a set of _hierarchical abstractions_. Alternatively you can say that System, Component and Elements makes up a tree-structure.
@@ -45,7 +49,13 @@ It is worth noticing the following:
 
 ## Notation
 
-![](images/legend.png)
+The proposed notation is depicted here:
+
+![](images/c5_notation.png)
+
+The following provides some realistic examples of how the notation can be applied in different kinds of diagrams. It should be clear how one can zoom in and out of various details.
+
+![](images/c5_diagrams.png)
 
 # Appendix
 
@@ -53,15 +63,15 @@ It is worth noticing the following:
 
 Q: Why have we selected only four Core Concepts and how can we expect it to provide a vocabolary rich enough to reason about software architecture?
 
-A: A key idea of the C5 model is that we need a solid foundation for the rest to build on. Hence, there are plenty of other necessary notions such as solution, application, product and service, all of which brings important nuances to a discussion. However, the more concepts we include in the model, the less are the chances that it will resonate fully. If even a single concept is not resonating well with people inside an organization, the model will loose its validity.
+A: A key idea of the C5 model is that we need a solid foundation for the rest to build on. Hence, there are plenty of other necessary notions such as "solution", "application", "product" and "service", all of which brings important nuances to a discussion in a specific context. However, the more concepts we include in the model, the less are the chances that it will resonate fully. If even a single concept is not resonating well with people inside an organization, the model will be harder to adopt.
 
 Q: Why is Code Elements not included as a Core Concept?
 
 A: The notion of Code Elements (Classes, types etc.) are of course very important. However, Code Elements are in fact to be of a different kind than the notions of components, systems and deployment nodes and for this reason it is not part of the core concepts of the C5 model.
 
-Q: Why is the model not providing a standard for diagrams types such as Context Diagram, Integration Diagram etc?
+Q: The model provides a couple of realistic example diagrams. Why is the model not providing a complete standard for diagrams types such as Context Diagram, Integration Diagram etc?
 
-A: Creating a standard for architecture diagrams may be important on its own right. Such a standard should establish a set of standard diagrams each having a specific standard name, a designation of what concepts and relationships are in focus. Although such a standard for diagrams is very valuable, it is a natural extension building on top of the foundation laid by the core concepts and notation provided by the model.
+A: Creating a standard for architecture diagrams may be important on its own right. Such a standard should establish a set of standard diagrams each having a specific standard name together with a declaration of what concepts and relationships are in focus. Although such a standard for diagrams is very valuable, it is for now an extension that people needs to build on top of the model.
 
 Q: Why do we need the System concept? Why do we need a higher-level structure on top of components? The notion of Components is useful, tangible and easily understandable, the notion of System is not.
 
@@ -71,7 +81,7 @@ A: It is true that the notion of System is harder to comprehend than the notion 
 
 ### More about the System concept
 
-The idea of a Software System can be hard to comprehend because it is rather abstract and to some may seem arbitrary.
+The idea of a Software System can be hard to comprehend because it is rather abstract and to some may seem unnecessary.
 Some would say that we don't need any other concept that
 
 ### More about the Component concept
