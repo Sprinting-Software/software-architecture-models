@@ -32,3 +32,7 @@ In addition, the definitions of concepts should explain the relationship between
 Once the concepts are established in this way, we have a solid ground for the **notation**, which must explain how each concept and each relationship between them can be depicted. If the various concepts can be depicted in several different ways, these variations should be explained as well.
 
 A model should be selective in what concepts are included in the model because the purpose is to create an inner core of concepts that are truly unambigous and fully understood by everyone using the model. Naturally, around every model being adopted there will be an informal language used on an every day basis. Allowing such informal language to develop freely is an important objective of a model. You may say that the model should strive to formalize just enough to provide a solid ground of core concepts to allow an informal conversation to grow out of it.
+
+## How you can contribute
+
+This work is licenced under the [Creative Common Corporation license](https://creativecommons.org/licenses/by/4.0/). Feel free to re-use, remix or simply make a pull-request to suggest changes to how C4 or C5 is presented here or propose yet another model for Software Architecture if you find the ones provided here insufficient for your needs.
