@@ -2,7 +2,7 @@
 
 An open-source initiative to drive experimentation and consensus around software architecture models.
 
-This document is available on [this official web-site](https://sprinting-software.github.io/software-architecture-models/) and the code is maintained [here on GitHub](https://github.com/Sprinting-Software/software-architecture-models). 
+This document is available on [this official web-site](http://www.softwarearchitecturemodels.com/) and the code is maintained [here on GitHub](https://github.com/Sprinting-Software/software-architecture-models). 
 
 ## About this document
 
@@ -37,4 +37,4 @@ A model should be selective in what concepts are included in the model because t
 
 ## How you can contribute
 
-This work is licenced under the [Creative Common Corporation license](https://creativecommons.org/licenses/by/4.0/). Feel free to re-use, remix or simply make a pull-request to suggest changes to how C4 or C5 is presented here or propose yet another model for Software Architecture if you find the ones provided here insufficient for your needs.
+This work is licenced under the [Creative Common Corporation license](https://creativecommons.org/licenses/by/4.0/). Feel free to re-use, remix or simply make a pull-request to suggest changes to some of the listed models, or propose yet another Software Architecture Model if you find the ones provided here insufficient for your needs. At last, you may always fork the repository to create your own version entirely.
