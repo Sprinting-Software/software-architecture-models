@@ -1,4 +1,4 @@
-# The C0 Model for Software Architecture
+# Software Architecture Models
 
 An open-source initiative to drive experimentation and consensus around software architecture models.
 
