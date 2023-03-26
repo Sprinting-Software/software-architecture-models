@@ -1,6 +1,6 @@
 # The C0 Model for Software Architecture
 
-An open-sourced model to drive experimentation and consensus among software architect practices.
+An open-source initiative to drive experimentation and consensus around software architecture models.
 
 ## About this document
 
