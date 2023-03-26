@@ -30,7 +30,7 @@ A model should be selective in what concepts are included in the model because t
 
 # The C4 model
 
-The following is attributed to the original author of the C4-model, Simon Brown. It is a brief recap of the C4-model in a format that complies with the approach in this material. 
+This page is in full attributed to the original author of the C4-model, Simon Brown. It is a brief recap of the C4-model in a format that complies with the approach in this material. All formulations are copies and remixes of the original text from [the C4 Model](https://c4model.com).
 
 ## Core concepts
 
@@ -40,15 +40,51 @@ More formally, we can define it as this:
 
 - ** Software System **: A **Software System** is the highest level of abstraction and describes something that delivers value to its users, whether they are human or not. This includes the software system you are modelling, and the other software systems upon which your software system depends (or vice versa). In many cases, a software system is "owned by" a single software development team.
 - ** Container**: a **Container** represents an application or a data store. A container is something that needs to be running in order for the overall software system to work. 
-- ** Component**: A **component** is a grouping of related functionality encapsulated behind a well-defined interface.
-The word "component" is a hugely overloaded term in the software development industry, but in this context a component is a grouping of related functionality encapsulated behind a well-defined interface. All components inside a container typically execute in the same process space. Hence, components are NOT separately deployable units.
+- ** Component**: A **component** is a grouping of related functionality encapsulated behind a well-defined interface. All components inside a container typically execute in the same process space. Hence, components are NOT separately deployable units.
+- ** Person**: A **Person** represents one of the human users of your software system (e.g. actors, roles, personas, etc).
+
+## Relationships between the concepts
+
+By putting together the definitions from the previous section we can rephrase it with an emphasis on the relationships between the concepts. 
+
+- A Software System is **composed** of Containers
+- A Container is **composed** of Components. 
+- A Component is **composed** of Code Elements
+- A Person **uses** your system. 
+
+The following diagram depicts the relationships between the core concepts using one-to-many relationships "--<" and many-to-many relationships ">--<".
+
+```
+                            usage
+        Software System  >---------<  Person
+             |
+composition  | 
+            / \    
+          Container
+             |     
+composition  |     
+            / \                      
+          Component 
+             |     
+composition  |     
+            / \    
+        Code Element
+```
+
+
+It is worth noticing the following: 
+
+- The concepts of Software System, Container, Component and Code Element makes up a set of *hierarchical abstractions*. Alternatively you can say that Software System, Container, Component and Code Element makes up a tree-structure.
 
 ## Notation
 
 The C4-model is notation-agnostic in theory. It is clearly stated on [the C4 Model](https://c4model.com) that the focus of the model is on the concepts and that notation can be selected freely. 
 
-In reality, the notation of C4 in many organizations follows the conventions established on [the C4 Model](https://c4model.com) which is as follows: 
+In reality, the notation of C4 in many organizations follows the conventions established on [the C4 Model](https://c4model.com) which can be summarized as follows: 
 
+// Put in the legend diagram
+
+An alternative way to illustrate the notation is the following diagram:
 
 
 ## Elaboration of core concepts
@@ -69,9 +105,6 @@ etc
 A Container is essentially a context or boundary inside which some code is executed or some data is stored. And each container is a separately deployable/runnable thing or runtime environment, typically (but not always) running in its own process space. Because of this, communication between containers typically takes the form of an inter-process communication.
 
 If you're using a language like Java or C#, the simplest way to think of a Component is that it's a collection of implementation classes behind an interface. Aspects such as how those components are packaged (e.g. one component vs many components per JAR file, DLL, shared library, etc) is a separate and orthogonal concern.
-
-
-
 
 # The C5 model
 
@@ -102,7 +135,7 @@ The following diagram depicts the relationships between the core concepts using 
              |
 composition  | 
             / \       deployment
-          Component  >---------<  Deployment-node --|
+          Component  >---------<  Deployment Node --|
              |                              \ /     | composition
 composition  |                               |______| 
             / \                      
@@ -134,6 +167,13 @@ Q: Why is Code Elements not included as a Core Concept?
 
 A: The notion of Code Elements (Classes, types etc.) are of course very important. However, Code Elements are in fact  to be of a different kind than the notions of components, systems and deployment nodes and for this reason it is not part of the core concepts of the C5 model. 
 
+Q: Why is the model not providing a standard for diagrams types such as Context Diagram, Integration Diagram etc?
+
+A: Creating a standard for architecture diagrams may be important on its own right. Such a standard should establish a set of standard diagrams each having a specific standard name, a designation of what concepts and relationships are in focus. Although such a standard for diagrams is very valuable, it is a natural extension building on top of the foundation laid by the core concepts and notation provided by the model. 
+
+Q: Why do we need the System concept? Why do we need a higher-level structure on top of components? The notion of Components is useful, tangible and easily understandable, the notion of System is not. 
+
+A: It is true that the notion of System is harder to comprehend than the notion of component. Furthermore, it is not always clear whether we need it at all. In particular, on a simple software platform with few components, it may suffice to deal with components without ever considering any higher level structure. As things grow and you need a larger organization around a software platform, the need to collect Components in natural groups will emerge. 
 
 
 ## Elaboration of the core concepts
