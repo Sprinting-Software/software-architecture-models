@@ -2,6 +2,8 @@
 
 An open-source initiative to drive experimentation and consensus around software architecture models.
 
+This document is available on [this official web-site](https://sprinting-software.github.io/software-architecture-models/) and the code is maintained [here on GitHub](https://github.com/Sprinting-Software/software-architecture-models). 
+
 ## About this document
 
 This open-source project sets out to create a standard model for software architecture diagrams.
