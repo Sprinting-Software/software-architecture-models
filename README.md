@@ -9,7 +9,8 @@ This document is available on [this official web-site](http://www.softwarearchit
 This open-source project sets out to create a standard model for software architecture diagrams.
 Creating agreement and consensus in the industry about diagramming standards for software architecture is challenging for many reasons. Using the approach, techniques and platforms from the open-source community seems obvious.
 
-This intiative is called the C0 Model. It is inspired by the works of Simon Brown called [The C4-model](https://c4model.com/) and is intended to be a natural evolution of the original ideas presented in the sense that this project should allow different people to express different competing models so that experimentation can thrive and true consensus can emerge in the industry.
+This initiative is inspired by the works of Simon Brown called [The C4-model](https://c4model.com/) and is intended to be a natural evolution of the original ideas presented in his work. 
+This initiative should allow different people to express different competing models so that experimentation can thrive and true consensus can emerge in the industry.
 
 ## The Models
 
